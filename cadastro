@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="../css/tela.css">
+    <link rel="shortcut icon" href="../img/geradordesenhas.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="post">
+    <p>nome</p><input type="text" name="nome" id="nome" required>
+    <p>email</p><input type="email" name="email" id="email" required>
+    <p>senha</p><input type="text" name="password" id="senha" required>
+    <p>confirmar senha</p><input type="text" name="password2" id="senha2" required><br>
+    <button id="botao" type="submit">cadastrar</button></form>
+</body>
+</html>
